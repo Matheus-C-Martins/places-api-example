@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_location_size">20sp</dimen>
+    <dimen name="spacing_main">5dp</dimen>
+    <dimen name="location_item_width" format="float">205.5dp</dimen>
+</resources>

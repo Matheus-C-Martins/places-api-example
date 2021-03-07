@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="@dimen/location_item_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/txt_location_size"/>
+
+        <TextView
+            android:id="@+id/location_type"
+            android:layout_width="@dimen/location_item_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/txt_location_size"
+            android:layout_toEndOf="@id/location_name"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
